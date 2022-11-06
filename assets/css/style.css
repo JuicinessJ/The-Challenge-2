@@ -45,12 +45,16 @@ article {
 .about {
 
 
+
 }
 
 section {
     display: flex;
     text-align: center;
     justify-content: center;
+}
+section h2 {
+    display: flex;
 }
 
 .work{
@@ -85,6 +89,8 @@ article h4 {
 
 
 }
+
+
 
 footer {
     display: flex;
