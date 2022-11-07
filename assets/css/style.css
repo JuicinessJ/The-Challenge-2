@@ -1,100 +1,114 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    background-color: #e3dac9; /* or whitesmoke */
- 
+:root {
+    --pad: 5px;
+    --rad: 5px;
+    --mar: 50px;
 }
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+.main {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .2fr .15fr 1fr .8fr .8fr .3fr;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "about about about"
+    "PRO1 PRO1 PRO1"
+    "PRO2 PRO3 PRO4"
+    "footer footer footer";
+    grid-gap: .2rem;
 }
 
 header {
-    padding: 20px;
-    font-size: 20px;
     text-align: center;
-    background-color: red;
-}
-
-header h1 {
-    background-color: red;
+    grid-area: header;
+    background-color: brown;
+    font-size: 50px;
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: center;
+     background-color: red;
+     grid-area: nav;
+     text-align: center;
+     font-size: 25px;
+     border-radius: var(--rad);
+     padding-top: var(--pad);
 }
 
-nav div ul {
-    list-style-type: none;
-}
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: var(--mar);
+    margin-right: var(--mar);
 
-nav div ul li {
-    display: inline-block;
-    margin-left: 25px;
 }
 
 article {
-    display: flex;
+    background-color: blue;
+    grid-area: about;
     text-align: center;
-    justify-content: center;
+    border-radius: var(--rad);
+    padding-top: var(--pad);
 }
 
-.about {
-
-
-
+article p {
+    text-indent: 25px;
+    margin-right: 20px;
 }
 
 section {
-    display: flex;
     text-align: center;
-    justify-content: center;
-}
-section h2 {
-    display: flex;
+    border-radius: var(--rad);
+    padding-top: var(--pad);
 }
 
-.work{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+.PRO1 {
+    background-color: red;
+    grid-area: PRO1;
 }
 
-.project {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+.PRO2 {
+    background-color: green;
+    grid-area: PRO2;
 }
 
-.project h3 {
-    
+.PRO3 {
+    background-color: blue;
+    grid-area: PRO3;
 }
 
-.contact {
-    display: flex;
-    text-align: center;
-    justify-content: center;
+.PRO4 {
+    background-color: purple;
+    grid-area: PRO4;
 }
-
-article h4 {
-
-
-}
-
 
 
 footer {
-    display: flex;
+    background-color: orange;
     text-align: center;
-    justify-content: center;
-    
+    grid-area: footer;
+    border-radius: var(--rad);
+    padding-top: var(--pad);
+    font-size: 20px;
+}
+
+footer a {
+    margin-left: var(--mar);
+    margin-right: var(--mar);
+}
+
+@media only screen and (max-width: 500px) {
+    .main{
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr .5fr 1fr .7fr .7fr .7fr .7fr .5fr;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "about"
+    "PRO1"
+    "PRO2"
+    "PRO3"
+    "PRO4"
+    "footer";
+    }
 }
