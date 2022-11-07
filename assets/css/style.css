@@ -4,6 +4,9 @@
     --mar: 50px;
 }
 
+* {
+    background-color: #e3dac9; /* or whitesmoke */;
+}
 .main {
     display: grid;
     height: 100vh;
@@ -22,21 +25,22 @@
 header {
     text-align: center;
     grid-area: header;
-    background-color: brown;
+    background-color: gray;
     font-size: 50px;
 }
 
 nav {
-     background-color: red;
-     grid-area: nav;
-     text-align: center;
-     font-size: 25px;
-     border-radius: var(--rad);
-     padding-top: var(--pad);
+    background-color: gray;
+    grid-area: nav;
+    text-align: center;
+    font-size: 25px;
+    border-radius: var(--rad);
+    padding-top: var(--pad);
 }
 
 nav a {
     text-decoration: none;
+    background-color: gray;
     color: black;
     margin-left: var(--mar);
     margin-right: var(--mar);
@@ -44,47 +48,65 @@ nav a {
 }
 
 article {
-    background-color: blue;
+    background-color: gray;
     grid-area: about;
     text-align: center;
     border-radius: var(--rad);
     padding-top: var(--pad);
 }
 
+article h1 {
+    background-color: gray;
+}
+
+article img {
+    background-color: gray;
+}
+
 article p {
+    background-color: gray;
     text-indent: 25px;
     margin-right: 20px;
 }
 
 section {
     text-align: center;
+    background-color: gray;
     border-radius: var(--rad);
     padding-top: var(--pad);
 }
 
+section h2 {
+    background-color: gray;
+}
+
+section p {
+    background-color: gray;
+}
+
 .PRO1 {
-    background-color: red;
+    background-color: gray;
     grid-area: PRO1;
 }
 
+
 .PRO2 {
-    background-color: green;
+    background-color: gray;
     grid-area: PRO2;
 }
 
 .PRO3 {
-    background-color: blue;
+    background-color: gray;
     grid-area: PRO3;
 }
 
 .PRO4 {
-    background-color: purple;
+    background-color: gray;
     grid-area: PRO4;
 }
 
-
 footer {
-    background-color: orange;
+    background-color: gray;
     text-align: center;
     grid-area: footer;
     border-radius: var(--rad);
@@ -95,6 +117,13 @@ footer {
 footer a {
     margin-left: var(--mar);
     margin-right: var(--mar);
+    background-color: gray;
+    color: black;
+    text-decoration: none;
+}
+
+footer p {
+    background-color: gray;
 }
 
 @media only screen and (max-width: 500px) {
