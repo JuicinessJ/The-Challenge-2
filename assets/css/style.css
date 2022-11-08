@@ -7,18 +7,19 @@
 * {
     background-color: #e3dac9; /* or whitesmoke */;
 }
+
 .main {
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: .2fr .15fr 1fr .8fr .8fr .3fr;
     grid-template-areas: 
-    "header header header"
-    "nav nav nav"
-    "about about about"
-    "PRO1 PRO1 PRO1"
-    "PRO2 PRO3 PRO4"
-    "footer footer footer";
+    "header header"
+    "nav nav"
+    "about about"
+    "PRO1 PRO2"
+    "PRO3 PRO4"
+    "footer footer";
     grid-gap: .2rem;
 }
 
@@ -44,7 +45,6 @@ nav a {
     color: black;
     margin-left: var(--mar);
     margin-right: var(--mar);
-
 }
 
 article {
@@ -74,19 +74,40 @@ section {
     background-color: gray;
     border-radius: var(--rad);
     padding-top: var(--pad);
+    position: relative;
+}
+
+section a {
+    background-color: gray;
+    
+}
+
+section img {
+    border-radius: 10px;
 }
 
 section h2 {
-    background-color: gray;
+    background-color:transparent;
+    color: white;
 }
 
 section p {
-    background-color: gray;
+    background-color:transparent;
+    color: white;
+}
+
+section .bottom-left {
+    position: absolute;
+    bottom: 25px;
+    left: 45px;
+    background-color:transparent;
+    padding: 5px;
 }
 
 .PRO1 {
     background-color: gray;
     grid-area: PRO1;
+    
 }
 
 
