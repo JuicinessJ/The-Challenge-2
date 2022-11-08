@@ -28,6 +28,7 @@ header {
     grid-area: header;
     background-color: gray;
     font-size: 50px;
+    border-radius: 5px;
 }
 
 nav {
@@ -37,6 +38,10 @@ nav {
     font-size: 25px;
     border-radius: var(--rad);
     padding-top: var(--pad);
+}
+
+nav span {
+    background-color: gray;
 }
 
 nav a {
@@ -61,6 +66,11 @@ article h1 {
 
 article img {
     background-color: gray;
+    border-radius: 10px;
+}
+
+article span {
+    background-color: gray;
 }
 
 article p {
@@ -79,7 +89,7 @@ section {
 
 section a {
     background-color: gray;
-    
+
 }
 
 section img {
@@ -144,6 +154,10 @@ footer a {
 }
 
 footer p {
+    background-color: gray;
+}
+
+footer span {
     background-color: gray;
 }
 
