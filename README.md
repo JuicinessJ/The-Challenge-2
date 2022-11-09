@@ -1,5 +1,8 @@
 # The-Challenge-2
 
+# Disclaimer
+Page is suited for 1920x1080. Not 2560x1440 or greater.
+
 ## Description
 
 - The feeling of seeing the final result.
