@@ -15,7 +15,7 @@
 - [License] (#license)
 - [Feature] (#feature)
 
-# installation
+# Installation
 Enter Github > Hit Green "Code" Button > Inside the clone drop down box select method of cloning(https, ssh, github CLI) > If cloning by SSH open a terminal or git inside enter > $ git clone (the ssh) > Then Viola
 
 # Usage
@@ -25,7 +25,7 @@ Enter Github > Hit Green "Code" Button > Inside the clone drop down box select m
 #credits
 I would like to give credit to the past recordings of class, homeworks, W3 resources and youtube videos. While I would like to take credit for this work. Good chunk of this came from 1 video. https://bit.ly/3UKG6sL . While there we're more I can not find the rest of my resources.
 
-# license
+# License
 MIT License
 
 Copyright (c) 2022 JuicinessJ
