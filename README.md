@@ -1,6 +1,7 @@
 # The-Story-Of-J
 
 # Disclaimer
+
 Page is suited for 1920x1080. Not 2560x1440 or greater.
 
 ## Description
@@ -19,16 +20,19 @@ Page is suited for 1920x1080. Not 2560x1440 or greater.
 - [Feature] (#feature)
 
 # Installation
+
 Enter Github > Hit Green "Code" Button > Inside the clone drop down box select method of cloning(https, ssh, github CLI) > If cloning by SSH open a terminal or git inside enter > $ git clone (the ssh) > Then Viola
 
 # Usage
-```md
+
 ![group](./assets/images/Capture.PNG)
-```
-#credits
+
+# credits
+
 I would like to give credit to the past recordings of class, homeworks, W3 resources and youtube videos. While I would like to take credit for this work. Good chunk of this came from 1 video. https://bit.ly/3UKG6sL . While there we're more I can not find the rest of my resources.
 
 # License
+
 MIT License
 
 Copyright (c) 2022 JuicinessJ
@@ -52,4 +56,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 # Feature
-To keep my sanity I left a few "funny" jokes inside my work. Was gonna do more but would've been too much. 
+
+The goal of this, Is to display my experiences and accomplishments. 
