@@ -23,7 +23,7 @@ Enter Github > Hit Green "Code" Button > Inside the clone drop down box select m
 
 # Usage
 ```md
-![group]()
+![group](./assets/images/Capture.PNG)
 ```
 #credits
 I would like to give credit to the past recordings of class, homeworks, W3 resources and youtube videos. While I would like to take credit for this work. Good chunk of this came from 1 video. https://bit.ly/3UKG6sL . While there we're more I can not find the rest of my resources.
